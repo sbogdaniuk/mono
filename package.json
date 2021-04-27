@@ -1,0 +1,21 @@
+{
+  "name": "mono",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "build:game-r": "(cd packages/game-r; yarn build)"
+  },
+  "version": "1.0.0",
+  "description": "Monorepo example",
+  "main": "index.js",
+  "repository": "git@github.com:sbogdaniuk/mono.git",
+  "author": "Sergei Bogdaniuk",
+  "license": "MIT",
+  "dependencies": {
+    "typescript-transform-paths": "^2.2.3"
+  }
+}

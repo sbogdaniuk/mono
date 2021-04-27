@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.base.json",
+  "references": [{
+    "path": "./packages/core"
+  }],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@bs/core/*": ["./packages/core/src/*"],
+      "@bs/core": ["./packages/core/src"]
+    }
+  }
+}
