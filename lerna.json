@@ -2,5 +2,32 @@
   "lerna": "2.2.0",
   "packages": ["packages/*"],
   "npmClient": "npm",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "command": {
+    "version": {
+      "preid": "next",
+      "ignoreChanges": [
+        "scripts/**",
+        ",**/__fixtures__/**",
+        "**/__tests__/**",
+        "**/__mocks__/**",
+        "**/*.md",
+        "lerna.json"
+      ],
+      "allowBranch": [
+        "master",
+        "dev"
+      ],
+      "conventionalCommits": true,
+      "changelogPreset": "angular",
+      "createRelease": "github",
+      "commitHooks": false,
+      "message": "chore(release): New release :tada: :rocket:",
+      "excludeDependents": true
+    },
+    "publish": {
+      "conventionalCommits": true,
+      "contents": "dist"
+    }
+  }
 }
