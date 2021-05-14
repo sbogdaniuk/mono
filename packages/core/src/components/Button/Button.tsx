@@ -1,7 +1,15 @@
-import React, { ButtonHTMLAttributes, DetailedHTMLProps, forwardRef } from 'react'
-import cn from 'classnames'
-import './Button.scss'
+import React, { ButtonHTMLAttributes } from "react";
+import cn from "classnames";
+import hot from "../../images/hot.svg";
+import "./Button.scss";
 
-export const Button = forwardRef<HTMLButtonElement, DetailedHTMLProps<ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement>>(({ className, ...rest }, ref) => (
-  <button type="button" ref={ref} className={cn('btn', className)} {...rest} />
-))
+export type TButtonProps = {
+  rounded?: boolean;
+} & ButtonHTMLAttributes<HTMLButtonElement>;
+
+export const Button = ({ className, rounded, ...rest }: TButtonProps) => (
+  <div>
+    <button className={cn("button", className, { "button--rounded": rounded })} {...rest} />
+    <img src={hot} alt="hot" />
+  </div>
+);

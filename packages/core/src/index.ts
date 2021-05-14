@@ -1,2 +1,3 @@
-export const version = () => '1.0.0'
-
+export function awesomeFn(num: number = 1) {
+  return `Hello Hollaaaaa ${String(num)}`;
+}

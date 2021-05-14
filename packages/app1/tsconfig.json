@@ -1,6 +1,7 @@
 {
+  "extends": "../../tsconfig.path.json",
   "compilerOptions": {
-    "target": "es6",
+    "target": "es5",
     "lib": [
       "dom",
       "dom.iterable",
@@ -11,23 +12,21 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
-    "composite": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "emitDeclarationOnly": true,
-    "declaration": true,
-    "baseUrl": ".",
-    "noEmit": false,
-    "jsx": "react-jsx",
-    "typeRoots": ["node_modules/@types"]
+    "noEmit": true,
+    "jsx": "react-jsx"
   },
-  "exclude": [
-    "../node_modules",
-    "dist",
-    "**jest**"
+  "include": [
+    "src"
+  ],
+  "references": [
+    {
+      "path": "../core"
+    }
   ]
 }

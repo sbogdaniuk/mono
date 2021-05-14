@@ -1,0 +1,7 @@
+@function strip-units($number) {
+  @return $number / ($number * 0 + 1);
+}
+// usage rem(32), rem(32px) -> 2rem
+@function rem($px, $baseline: 16) {
+  @return (strip-units($px) / $baseline) * 1rem;
+}

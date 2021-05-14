@@ -1,0 +1,112 @@
+// Misc
+$img-path: '../../../assets/images';
+
+// Colors
+$black: rgb(0, 0, 0);
+$black-90: rgba($black, .9);
+$white: rgb(255, 255, 255);
+$white-60: rgba($white, .6);
+$green-lima: rgb(107, 185, 22);
+
+$transparent: rgba(0, 0, 0, 0);
+
+$black: rgb(0, 0, 0);
+$black-10: rgba($black, .1);
+$black-23: rgba($black, .23);
+$black-50: rgba($black, .5);
+$black-60: rgba($black, .6);
+$black-80: rgba($black, .8);
+$black-mine-shaft: rgb(32, 32, 32);
+$black-mine-shaft-lighter: rgb(61, 61, 61);
+$black-woodsmoke: rgb(3, 3, 4);
+
+$gray: rgb(146, 146, 146);
+$gray-cod: rgb(19, 19, 19);
+$gray-cod-40: rgba($gray-cod, .4);
+$gray-soyabean: rgb(92, 81, 73);
+$gray-tundora: rgb(75, 75, 75);
+$gray-dove: rgb(104, 104, 104);
+$gray-dove-75: rgba($gray-dove , .75);
+$gray-mineshaft: rgb(58, 58, 58);
+$gray-mineshaft-75: rgba($gray-mineshaft, .75);
+
+$silver: rgb(202, 202, 202);
+
+$white: rgb(255, 255, 255);
+$white-10: rgba($white, .1);
+$white-20: rgba($white, .2);
+$white-30: rgba($white, .3);
+$white-50: rgba($white, .5);
+$white-87: rgba($white, .87);
+
+$green: rgb(0, 191, 11);
+$green-emerald: rgb(59, 204, 99);
+$green-jewel: rgb(23, 115, 50);
+$green-yellow: rgb(173, 255, 47);
+$green-yellow-60: rgba($green-yellow, .6);
+$green-jungle: rgb(42, 203, 100);
+$green-mountain-medow: rgb(33, 177, 76);
+$green-limeade: rgb(119, 160, 7);
+
+$red: rgb(255, 0, 0);
+$red-bittersweet: rgb(255, 114, 114);
+$red-cinnabar: rgb(229, 57, 53);
+$red-roof-terracotta: rgb(182, 40, 33);
+$red-thunderbird: rgb(213, 23, 21);
+$red-guardsman: rgb(191, 0, 0);
+$red-glass: rgb(186, 36, 38);
+$red-roof-of-terracotta: rgb(182, 40, 33);
+$red-chestnut-rose: rgb(203, 83, 85);
+
+$orange-flush: rgb(255, 125, 0);
+$orange-neon: rgb(255, 157, 63);
+
+$gold: rgb(247, 231, 27);
+$gold-fever: rgb(255, 203, 0);
+
+$yellow-pale-canary: rgb(253, 255, 147);
+$yellow-supernova: rgb(252, 203, 0);
+$yellow-ripe-lemon: rgb(248, 231, 28);
+$yellow-corn: rgb(237, 204, 0);
+$yellow-gold: rgb(255, 211, 0);
+$yellow-selective: rgb(255, 187, 0);
+
+$blue-azure-radiance: rgb(0, 135, 245);
+$blue-malibu: rgb(84, 253, 224);
+$blue-fiord: rgb(72, 84, 109);
+$blue-curious: rgb(45, 148, 200);
+$blue-arapawa: rgb(10, 21, 111);
+$blue-science: rgb(3, 71, 199);
+$blue-cerulean: rgb(3, 149, 208);
+$blue-catalina: rgb(6, 57, 131);
+
+$pink-viola: rgba(189, 119, 187, .3);
+
+// Misc
+$overlay-transition-delay: .75s; // Used for loading screen and fullscreen overlays
+$blurred-transition: filter 250ms ease;
+
+// Transition Durations
+$transition-duration-rapid: .2s;
+$transition-duration-quick: .25s;
+$transition-duration-normal: .3s;
+$transition-duration-slow: .35s;
+$transition-duration-one: 1s;
+
+// Timing functions
+$timing-cubic-butter: cubic-bezier(0, 0, .3, 1);
+$timing-cubic-bounce: cubic-bezier(.01, .01, .1, 1.53);
+$timing-cubic-smooth: cubic-bezier(.4, 0, .2, 1);
+
+// Used to match the styles of the actual input and the virtual keyboard input
+$nickname-input-caret-color: $blue-azure-radiance;
+$chat-input-caret-color: $white-87;
+$chat-input-padding: 1vw 4vw;
+$nickname-input-padding: 2vw 4vw;
+
+$winning-animator-x: var(--winning-animator-x);
+$winning-animator-y: var(--winning-animator-y);
+
+$violet-electric: rgb(184, 3, 215);
+$violet-seance: rgb(124, 34, 148);
+$violet-seance-dark: rgb(93, 26, 134);
