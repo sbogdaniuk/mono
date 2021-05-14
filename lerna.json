@@ -15,7 +15,7 @@
         "lerna.json"
       ],
       "allowBranch": [
-        "master",
+        "main",
         "dev"
       ],
       "conventionalCommits": true,
@@ -27,7 +27,7 @@
     },
     "publish": {
       "conventionalCommits": true,
-      "contents": "dist"
+      "contents": "."
     }
   }
 }

@@ -17,7 +17,7 @@
     "build:app1": "lerna run build --scope=@mono/app1",
     "build:app2": "lerna run build --scope=@mono/app2",
     "bundle:analyze": "lerna run bundle:analyze",
-    "publish:core": "lerna publish",
+    "publish:core": "export $(cat .env | xargs); lerna publish",
     "serve": "lerna run serve --parallel"
   },
   "devDependencies": {
