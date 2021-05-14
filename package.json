@@ -2,7 +2,7 @@
   "name": "monorepo",
   "private": true,
   "scripts": {
-    "clean": "rimraf \"packages/**/node_modules\" && npm run clean:dist",
+    "clean": "npm run clean:dist && rimraf \"packages/**/node_modules\" node_modules",
     "clean:dist": "rimraf \"packages/**/dist\" \"packages/**/build\" \"packages/**/*.tsbuildinfo\"",
     "prettier": "prettier \"*.{js,json,yml,md}\" \"packages/**/*\"",
     "format": "npm run prettier -- --write",

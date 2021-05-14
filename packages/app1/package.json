@@ -11,7 +11,7 @@
     "serve": "serve -s build"
   },
   "dependencies": {
-    "@mono/core": "^1.1.0",
+    "@mono/core": "1.1.0",
     "classnames": "^2.3.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
