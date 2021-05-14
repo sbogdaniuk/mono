@@ -1,6 +1,6 @@
 {
   "name": "@mono/app1",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "start": "react-scripts start",
@@ -11,11 +11,11 @@
     "serve": "serve -s build"
   },
   "dependencies": {
-    "@mono/core": "^1.0.0",
+    "@mono/core": "^1.1.0",
+    "classnames": "^2.3.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-scripts": "4.0.3",
-    "classnames": "^2.3.1",
     "web-vitals": "^1.0.1"
   },
   "devDependencies": {
@@ -26,9 +26,9 @@
     "@types/node": "^12.20.13",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "cra-bundle-analyzer": "^0.1.0",
     "node-sass": "^6.0.0",
-    "typescript": "^4.1.2",
-    "cra-bundle-analyzer": "^0.1.0"
+    "typescript": "^4.1.2"
   },
   "eslintConfig": {
     "extends": [
