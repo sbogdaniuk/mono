@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/sbogdaniuk/mono/compare/@mono/app2@0.2.0...@mono/app2@0.3.0) (2021-05-14)
+
+
+### Features
+
+* **app2:** Added alert ([3e13816](https://github.com/sbogdaniuk/mono/commit/3e13816d460b101d86822260eeaaa670aef97c3d))
+
+
+
+
+
 # 0.2.0 (2021-05-14)
 
 

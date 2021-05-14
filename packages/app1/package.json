@@ -1,6 +1,6 @@
 {
   "name": "@mono/app1",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "scripts": {
     "start": "react-scripts start",
@@ -11,7 +11,7 @@
     "serve": "serve -s build"
   },
   "dependencies": {
-    "@mono/core": "1.1.0",
+    "@mono/core": "1.2.0",
     "classnames": "^2.3.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
