@@ -1,6 +1,6 @@
 {
   "name": "@mono/core",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Awesome functions",
   "main": "dist/index.js",
   "private": false,
