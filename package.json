@@ -20,6 +20,7 @@
     "bundle:analyze": "lerna run bundle:analyze",
     "updated": "lerna updated",
     "publish:core": "export $(cat .env | xargs); lerna publish --exact",
+    "ci:publish:core": "npm run publish:core -- --yes",
     "serve": "lerna run serve --parallel"
   },
   "devDependencies": {
