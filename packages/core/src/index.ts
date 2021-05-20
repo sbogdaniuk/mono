@@ -8,3 +8,4 @@ export function awesomeFn(num: number = 1) {
 }
 
 export const functionForOldPackages = () => 'Do not use it!!!'
+export const functionForOldPackages2 = () => 'Do not use it 2!!!'
