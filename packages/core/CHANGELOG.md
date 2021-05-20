@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/sbogdaniuk/mono/compare/@mono/core@1.2.2...@mono/core@1.3.0) (2021-05-20)
+
+
+### Features
+
+* **old:** feature for old packages ([868ffa8](https://github.com/sbogdaniuk/mono/commit/868ffa8ffaf8b3114e433d0372919c244cd2fcee))
+
+
+
+
+
 ## [1.2.2](https://github.com/sbogdaniuk/mono/compare/@mono/core@1.2.1...@mono/core@1.2.2) (2021-05-20)
 
 **Note:** Version bump only for package @mono/core
