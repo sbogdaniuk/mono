@@ -1,3 +1,8 @@
+// components
+export { Alert } from './components/Alert'
+export { Button } from './components/Button'
+export { Version } from './components/Version'
+
 export function awesomeFn(num: number = 1) {
   return `Hello Hollaaaaa ${String(num)}`;
 }

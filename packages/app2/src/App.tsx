@@ -1,6 +1,5 @@
 import React from 'react'
-import { Alert } from '@mono/core/dist/components/Alert'
-import { Version } from '@mono/core/dist/components/Version'
+import { Alert, Version } from '@mono/core'
 import './App.scss'
 
 function App() {
